@@ -26,3 +26,57 @@ a {
     text-decoration: none;
     color: #ccc;
 }
+
+
+/* Section */
+
+.section {
+    padding: 2rem 0;
+}
+
+.section-head {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.section h3 {
+    font-size: 2rem;
+}
+
+section#entertainment {
+    background: url(../img/section-bg.jpg) no-repeat bottom/cover;
+    padding: 10rem 0;
+}
+
+.gift-cards {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: left;
+}
+
+
+/* Showcase */
+
+#showcase {
+    margin: 0;
+    padding: 0;
+    background: url('../img/showcase.jpg') no-repeat center/cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow-y: hidden;
+}
+
+#showcase .container {
+    margin-top: 25vh;
+}
+
+#showcase h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+#showcase h2 {
+    font-size: 2rem;
+}
